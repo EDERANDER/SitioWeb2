@@ -693,8 +693,6 @@ window.addEventListener('load', async () => {
                 circulinaShort = 'NA';
                 break;
         }
-
-        // Estructura para "remolque"
         let remolque = document.querySelector('input[name="remolque"]:checked').value;
         let remolqueShort = '';
         switch (remolque) {
@@ -712,10 +710,10 @@ window.addEventListener('load', async () => {
         let tacos = document.querySelector('input[name="tacos"]:checked').value;
         let tacosShort = '';
         switch (tacos) {
-            case 'Buenos':
+            case 'Bueno':
                 tacosShort = 'B';
                 break;
-            case 'Malos':
+            case 'Malo':
                 tacosShort = 'M';
                 break;
             case 'No Aplica':
@@ -727,16 +725,17 @@ window.addEventListener('load', async () => {
         let lampa = document.querySelector('input[name="lampa"]:checked').value;
         let lampaShort = '';
         switch (lampa) {
-            case 'Buena':
+            case 'Bueno':
                 lampaShort = 'B';
                 break;
-            case 'Mala':
+            case 'Malo':
                 lampaShort = 'M';
                 break;
             case 'No Aplica':
                 lampaShort = 'NA';
                 break;
         }
+
 
 
 
